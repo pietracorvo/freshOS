@@ -1,0 +1,7 @@
+### PPAs needed for my installation list ###
+# Java PPA
+ppa:webupd8team/java
+# Atom PPA
+ppa:webupd8team/atom
+# Seafile PPA
+ppa:seafile/seafile-client

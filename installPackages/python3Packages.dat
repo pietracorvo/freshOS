@@ -1,0 +1,9 @@
+### My personal python3 packges ###
+# Some essentials
+ipython
+jupyter
+# Python3 data tools
+scipy
+numpy
+matplotlib
+sympy
