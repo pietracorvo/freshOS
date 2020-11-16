@@ -1,0 +1,5 @@
+Refactor this:
+    - isolate private stuff in constants and exclude them with a gitignore
+    - the scripts doing the work should be commit and pushed
+
+
