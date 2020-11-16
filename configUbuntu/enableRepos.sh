@@ -12,8 +12,8 @@
 SOURCE_LIST='/etc/apt/sources.list'
 
 # If no backup exists make one
-if ! [ -f "$SOURCE_LIST.bak" ]; then
-    cp $SOURCE_LIST "$SOURCE_LIST.bak"
+if ! [ -f "$SOURCE_LIST.bckp" ]; then
+    cp $SOURCE_LIST "$SOURCE_LIST.bckp"
 fi
 
 # Enable canonical partner repos

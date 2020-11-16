@@ -9,9 +9,12 @@
 
 ###############################################################################
 
+# NOTE: this script is working no more !!!
+
 # -----------------------------------------------------
 # Create a new firefox profile if it not already exists
 # -----------------------------------------------------
+#NOTE: Here firefox has chnaged somehting, default is defined by first lines in profiles.ini
 NEW_PROFILE='localProfile' # name of new firefox profile
 if [ ! -d ~/.mozilla/firefox/*.$NEW_PROFILE ]; then
     # Open and close firefox to make default user_pref
@@ -71,9 +74,9 @@ echo "NOTE: I have done this copy for the bookmarks: $INFO"
 # -------------------------------------------------
 # Copy plugins from source to local firefox profile
 # -------------------------------------------------
-PATH_TO_PLUGINS='firefoxPlugins' # folder containing my personal firefox plugins
-INFO=$(cp -Ruv $PATH_TO_PLUGINS/. $PATH_TO_PROFILE/extensions)
-echo "NOTE: I have done this copy for the firefox plugins: $INFO"
+#PATH_TO_PLUGINS='firefoxPlugins' # folder containing my personal firefox plugins
+#INFO=$(cp -Ruv $PATH_TO_PLUGINS/. $PATH_TO_PROFILE/extensions)
+#echo "NOTE: I have done this copy for the firefox plugins: $INFO"
 
 # Kill if any running firefox processes remain ...
 pkill firefox

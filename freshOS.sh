@@ -9,6 +9,9 @@
 
 ###############################################################################
 
+# Change to location of script
+cd $(dirname $0)
+
 # Enbale canonical third party repos
 cd configUbuntu
 bash ./enableRepos.sh

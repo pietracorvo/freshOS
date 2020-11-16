@@ -36,7 +36,7 @@ while read -r LINE; do
 done < $PATH_TO_PACKAGES
 
 ### Do some stuff after install ###
-# Start tlp
+# Start tlp (laptop akku manager)
 tlp start
 # Some cleanup
 apt-get update

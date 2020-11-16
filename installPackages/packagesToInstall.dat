@@ -1,10 +1,29 @@
 ### Some sys tools ###
-# Debfoster to keep system clean
+
+
+# Package management
 debfoster
-# Some systools
 synaptic
+aptitude
+
+# Disk utils
 gparted
+xdiskusage
+
+# Shell utils
+htop
+tree
+
+# Gnome extensions
 gnome-tweaks
+gnome-shell-extensions
+gnome-shell-extension-caffeine
+gnome-shell-extension-weather
+
+# File format tools
+exfat-fuse
+exfat-utils
+
 # Battery manager
 tlp
 # -rdw is optional (provides event based switching of bluetooth, wifi, wwan radio devices, etc.)
@@ -12,8 +31,10 @@ tlp-rdw
 # only for thinkpad (optional packages for battery threshold levels)
 tp-smapi-dkms
 acpi-call-dkms
-# Media codecs
+
+# Media codecs (NOTE: this seems to make probelms, sometimes not possible to accept lincese popup window ...)
 ubuntu-restricted-extras
+
 # Compressors
 rar
 unrar
@@ -21,62 +42,84 @@ zip
 unzip
 p7zip-full
 p7zip-rar
-# Java (external PPA)
-oracle-java8-installer
+
+# Java (external PPA) (NOTE: seems not to work ...)
+#oracle-java8-installer
+
 # Some dev stuff for python
-python-pip
 python3-pip
+python3-doc
+
 # Video compression tool
 ffmpeg
 
+
 ### PERSONAL APPS ###
+
 # Editors
 kate
 emacs
 vim
 gedit
 gedit-plugins
-# (external PPA)
-atom
+
+# IDEs (external PPA)
+#atom
+
 # Pdf apps
 evince
 pdfshuffler
+
 # Image manipulation apps
 pinta
 gimp
 gimp-help-de
+
 # Video apps
 vlc
+
 # Screenshots
 shutter
+
 # Web apps
 firefox
 language-pack-de-base
 thunderbird
 thunderbird-locale-de
+
 # Telegram
-telegram-desktop
-# Git
+#telegram-desktop
+
+# Git and Git-gui
 git
+gitg
+gitk
+
 # Latex
 texlive
 texlive-lang-german
 texlive-latex-extra
+
 # Some Latex editors
 texmaker
 texstudio
 texworks
+
 # Gnuplot
-gnuplot
-gnuplot-x11
-gnuplot-doc
+# gnuplot
+# gnuplot-x11
+# gnuplot-doc
+
 # Symbolic algebra
-maxima
-wxmaxima
+#maxima
+#wxmaxima
+
 # Some calculators
 speedcrunch
+
 # Dropbox
-nautilus-dropbox
-# Seadrive a cloadstorage client only needed for my personal aims (external PPA)
-seafile-gui
+#nautilus-dropbox # mybe with snap ?
+
+# Star map
+stellarium
 

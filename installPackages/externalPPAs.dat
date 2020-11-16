@@ -1,7 +1,10 @@
 ### PPAs needed for my installation list ###
-# Java PPA
-ppa:webupd8team/java
-# Atom PPA
-ppa:webupd8team/atom
-# Seafile PPA
-ppa:seafile/seafile-client
+
+# Gnome shell extrensions
+ppa:gnome-shell-extensions
+
+# Java PPA (NOTE: seems not to work ...)
+#ppa:webupd8team/java
+
+# Atom PPA (NOTE: maybe use snap to install ...)
+#ppa:webupd8team/atom

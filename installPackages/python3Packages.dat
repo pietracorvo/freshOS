@@ -1,7 +1,10 @@
 ### My personal python3 packges ###
+
 # Some essentials
+virtualenv
 ipython
 jupyter
+
 # Python3 data tools
 scipy
 numpy
