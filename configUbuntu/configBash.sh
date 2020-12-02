@@ -23,3 +23,7 @@ fi
 
 # Record much more bash commands to track myself
 sed -i '/^HISTFILESIZE=.*/ s/=.*/=20000/' ~/.bashrc
+
+
+# TODO: Maybe also add the following line (if it has no side effect) 
+export PATH=/usr/local/bin:$PATH # needed e.g. to use brew

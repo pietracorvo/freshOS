@@ -1,10 +1,12 @@
 ### Some sys tools ###
 
 
+
 # Package management
 debfoster
 synaptic
 aptitude
+linuxbrew-wrapper
 
 # Disk utils
 gparted
@@ -62,6 +64,11 @@ emacs
 vim
 gedit
 gedit-plugins
+
+# Libre office (in german)
+libreoffice
+libreoffice-l10n-de
+libreoffice-help-de 
 
 # IDEs (external PPA)
 #atom

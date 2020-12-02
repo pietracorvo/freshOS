@@ -12,12 +12,15 @@
 touch ~/Templates/New\ Document
 
 # Configure gnome desktop
+gsettings set org.gnome.nautilus.preferences default-folder-viewer 'list-view'
+# could find no key to descrease the size of the folders displayed by nautilus
 gsettings set org.gnome.nautilus.desktop trash-icon-visible false
 gsettings set org.gnome.nautilus.desktop home-icon-visible false
 gsettings set org.gnome.desktop.interface clock-show-date true
 gsettings set org.gnome.desktop.calendar show-weekdate true
 gsettings set org.gnome.desktop.interface show-battery-percentage true
-gsettings set org.gnome.desktop.sound event-sounds false # kill annoying alert sound
+gsettings set org.gnome.desktop.sound event-sounds false # kill annoying alert sound in terminal
+# TODO: also for gedit, ipython, nautilus ...
 #gsettings set org.gnome.desktop.screensaver lock-enabled false # no lock after screensaver goes active
 #gsettings set org.gnome.desktop.screensaver lock-delay 0 # no autolock after certain time
 
