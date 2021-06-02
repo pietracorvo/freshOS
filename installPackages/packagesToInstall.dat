@@ -21,6 +21,8 @@ gnome-tweaks
 gnome-shell-extensions
 gnome-shell-extension-caffeine
 gnome-shell-extension-weather
+# to sync with google drive
+gnome-online-accounts
 
 # File format tools
 exfat-fuse
@@ -77,10 +79,16 @@ libreoffice-help-de
 evince
 pdfshuffler
 
+# For ePub files
+calibre
+
 # Image manipulation apps
 pinta
 gimp
 gimp-help-de
+
+# Music player
+amarok
 
 # Video apps
 vlc

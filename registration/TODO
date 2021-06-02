@@ -1,5 +1,4 @@
 Refactor this:
     - isolate private stuff in constants and exclude them with a gitignore
     - the scripts doing the work should be commit and pushed
-
-
+    - if no personal data file is given it could force user to type credentials from cml
